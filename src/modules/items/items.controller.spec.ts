@@ -1,4 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
+
 import { ItemsController } from './items.controller';
 
 describe('Items Controller', () => {
@@ -15,4 +16,3 @@ describe('Items Controller', () => {
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
-});
